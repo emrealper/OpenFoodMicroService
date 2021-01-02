@@ -1,0 +1,13 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+version: '3.4'
+services:
+ openfoodservice:
+  image: openfoodapi_image
+  hostname: "openfoodservice"
+  ports:
+    - "5000:80"
+ apigatewayservice:
+  image:  apigateway_image
+  hostname: "apigatewayservice"
+  ports:
+    - "5001:80"

@@ -1,0 +1,13 @@
+{
+  "solution": {
+    "path": "OpenFoodMicroService.sln",
+    "projects": [
+      "Application.UnitTests\\Application.UnitTests.csproj",
+      "OpenFood.ApiGateway\\OpenFood.ApiGateway.csproj",
+      "OpenFood.Application\\OpenFood.Application.csproj",
+      "OpenFood.Domain\\OpenFood.Domain.csproj",
+      "OpenFood.Infrastructure\\OpenFood.Infrastructure.csproj",
+      "OpenFoodApi\\OpenFoodApi.csproj"
+    ]
+  }
+}
