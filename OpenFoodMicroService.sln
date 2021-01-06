@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{2259672D-966D-47E7-B001-D8CF5EFABE8D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFood.ApiGateway", "OpenFood.ApiGateway\OpenFood.ApiGateway.csproj", "{67ECF3BD-DF82-4E99-A7C3-9B5F852B39DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{2259672D-966D-47E7-B001-D8CF5EFABE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2259672D-966D-47E7-B001-D8CF5EFABE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2259672D-966D-47E7-B001-D8CF5EFABE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67ECF3BD-DF82-4E99-A7C3-9B5F852B39DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67ECF3BD-DF82-4E99-A7C3-9B5F852B39DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67ECF3BD-DF82-4E99-A7C3-9B5F852B39DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67ECF3BD-DF82-4E99-A7C3-9B5F852B39DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
